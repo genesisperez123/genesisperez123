@@ -1,0 +1,98 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url('imagenes/fondo.jpg'); /* Cambia la ruta a la imagen */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Fondo de color semitransparente para mejorar la legibilidad */
+.overlay {
+    background-color: rgba(245, 245, 245, 0.85);
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #87CEEB;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Barra de Navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #4CAF50;
+}
+
+/* Sección de Promoción */
+.promo {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e8f5e9;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.promo h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.promo p {
+    font-size: 1.2em;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Botones */
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.botones a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #388e8e;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.botones a:hover {
+    background-color: #388e8e;
+    transform: scale(1.05);
+}
